@@ -1,0 +1,20 @@
+baseURL: http://chaoscupid.org/
+languageCode: en-GB
+title: Chaos CUPID - for joyful chaos engineering
+theme: hugo-theme-techdoc
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+params:
+  menu_style: open-menu
+  custom_font_color: ''
+  custom_background_color: ''
