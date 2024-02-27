@@ -1,4 +1,4 @@
-baseURL: http://chaoscupid.org/
+baseURL: https://chaoscupid.org/
 languageCode: en-GB
 title: Chaos CUPID - for joyful chaos engineering
 theme: hugo-theme-techdoc
