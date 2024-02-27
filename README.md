@@ -15,6 +15,19 @@ then you should be able to run the site locally by navigating to the root direct
 [Hugo]: https://gohugo.io
 [install]: https://gohugo.io/installation/
 
+### Installing the theme
+
+If you haven't already, you'll need to initialize the themes that this site depends on by executing the following commands from the root of the cloned repo:
+
+```shell
+$ git submodule init
+...
+
+$ git submodule update
+```
+
+### Running the website locally
+
 ```shell
 $ hugo server
 ```
